@@ -1,0 +1,38 @@
+/*
+Theme Name: Bridge Child
+Template: bridge
+Author: AntKing
+Description: This is a child theme for Bridge Theme
+Version: 3.0.0
+Updated: 2024-03-22 02:43:36
+
+*/
+@import url('./assets/css/our-fleet.css');
+
+@font-face {
+    font-family: OptimaLTStd400;
+    font-weight: 400;
+    src: url(./assets/fonts/OptimaLTStd400.otf) format("truetype");
+}
+
+@font-face {
+    font-family: OptimaLTStd500;
+    font-weight: 500;
+    src: url(./assets/fonts/OptimaLTStd500.otf) format("truetype");
+}
+
+@font-face {
+    font-family: OptimaLTStd600;
+    font-weight: 600;
+    src: url(./assets/fonts/OptimaLTStd600.otf) format("truetype");
+}
+
+@font-face {
+    font-family: OptimaLTStd700;
+    font-weight: 700;
+    src: url(./assets/fonts/OptimaLTStd700.otf) format("truetype");
+}
+
+body {
+    background-color: #ffffff;
+}

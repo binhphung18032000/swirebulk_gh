@@ -1,0 +1,165 @@
+#s-our-fleet-tabs {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s-our-fleet-tabs .our-fleet-tabs-item {
+    color: #000000;
+    font-family: OptimaLTStd500;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 30px;
+    opacity: 0.4;
+}
+
+#s-our-fleet-tabs .our-fleet-tabs-item.active {
+    opacity: 1;
+}
+
+#s_best_in_class_fleet h1 {
+    font-family: OptimaLTStd700;
+    text-transform: capitalize;
+}
+
+#s_best_in_class_fleet p {
+    font-family: OptimaLTStd400;
+    max-width: 634px;
+}
+
+#s_fast_facts h2,
+#s_fast_facts h3 {
+    font-family: OptimaLTStd700;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#s_fast_facts p {
+    font-family: OptimaLTStd700;
+}
+
+#s_fast_facts .s_fast_facts_1_no1 {
+    position: relative;
+}
+
+#s_fast_facts .s_fast_facts_1_no1::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 6px;
+    background-color: #FC1B1C;
+    bottom: -14px;
+    left: -19px;
+}
+
+#s_fast_facts .s_fast_facts_3_no1 {
+    max-width: 324px;
+}
+
+#s_fast_facts .s_fast_facts_3_no2 {
+    max-width: 340px;
+}
+
+#s_fast_facts .s_fast_facts_read_me span {
+    font-family: OptimaLTStd500;
+}
+
+.s-owned-fleet {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.s-owned-fleet .s-owned-fleet-content h2 {
+    font-family: OptimaLTStd700;
+    font-size: 55px;
+    line-height: 66px;
+    position: relative;
+    letter-spacing: 0;
+}
+
+.s-owned-fleet .s-owned-fleet-content h2::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 6px;
+    background-color: #FC1B1C;
+    bottom: -14px;
+    left: 0px;
+}
+
+.s-owned-fleet .s-owned-fleet-content p {
+    font-family: OptimaLTStd400;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0;
+    margin-top: 50px;
+}
+
+.s-owned-fleet .s-owned-fleet-icon {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.s-owned-fleet .s-owned-fleet-icon-item {
+    width: 240px;
+    height: 240px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-owned-fleet .s-owned-fleet-icon-item.active {
+    background-color: #09224F;
+}
+
+
+
+
+
+
+
+
+.s-table-owned-fleet table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1680px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #09224F;
+    color: #fff;
+}
+
+th {
+    padding: 10px 20px;
+}
+
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
