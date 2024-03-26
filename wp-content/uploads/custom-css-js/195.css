@@ -1,0 +1,136 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+p {
+	margin-top: 0;
+}
+p:last-child {
+	margin-bottom: 0;
+}
+.elementor-accordion .elementor-accordion-item {
+	padding: 30px 0;
+	border-top: solid 1px #000 !important;
+}
+.elementor-accordion .elementor-accordion-item:last-child {
+	border-bottom: solid 1px #000 !important;
+}
+.w-100 img{
+	width: 100%;
+}
+.square-block {
+    position: relative;
+}
+.square-block::after {
+    display: block;
+    content: '';
+    padding-top: 100%;
+    width: 100%;
+}
+.square-block > * {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translate(0, -50%)
+}
+
+.time-line-section .e-con-inner > .elementor-element{
+    border-left: solid 2px #000;
+    position: relative;
+	padding-bottom: 60px;
+}
+.time-line-section .e-con-inner > .elementor-element:last-child {
+    border: none;
+	margin-top: -10px;
+	padding-bottom: 0;
+}
+.time-line-section .e-con-inner > .elementor-element::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translate(-50%, -50%)
+}
+
+
+.elementor-loop-content .swiper-slide {
+    max-width: 33.3333%;
+    
+    position: relative;
+}
+.elementor-loop-content .swiper-slide  .e-con-inner > .e-con {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    background-color: #FC1B1C;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    visibility:hidden;
+}
+.elementor-loop-content .swiper-slide:hover  .e-con-inner > .e-con {
+    opacity: 1;
+    visibility:visible
+}
+.elementor-loop-content .swiper-pagination.swiper-pagination-fraction {
+    background: #FC1B1C;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 15px;
+    position: relative;
+    bottom: 0 !important;
+    transform: translate(0,0);
+}
+.elementor-loop-content .swiper-slide  .e-con-inner > .e-con .e-con-inner {
+    gap: 0;
+    justify-content: center;
+    margin: 0;
+}
+.elementor-loop-content .elementor-swiper-button.swiper-button-disabled {
+	opacity: 0.5 !important
+}
+.elementor-loop-content .elementor-swiper-button  {
+    width: 80px;
+    height: 80px;
+    color: #FC1B1C !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1 !important;
+	font-size: 40px !important;
+}
+.elementor-loop-content .elementor-swiper-button svg {
+	fill: #FC1B1C !important;
+}
+.elementor-loop-content .elementor-swiper-button-next:hover ,
+.elementor-loop-content .elementor-swiper-button-prev:hover {
+	background: #FC1B1C;
+	color: #fff !important;
+}
+.elementor-loop-content .elementor-swiper-button-next:hover svg,
+.elementor-loop-content .elementor-swiper-button-prev:hover svg {
+	fill: #fff !important;
+}
+.elementor-loop-content .elementor-swiper-button-prev {
+    right: 100px !important;
+    transform: translate(0,0) !important;
+    left: initial !important;
+    
+}
+.elementor-swiper-button-next,
+.elementor-swiper-button-prev {
+    top: -150px !important;
+}
+
+.leader-ship-title .elementor-widget-container  {
+	min-height: 90px;
+	display: flex;
+	align-items: flex-end;
+}</style>
+<!-- end Simple Custom CSS and JS -->

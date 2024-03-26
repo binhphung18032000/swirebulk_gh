@@ -53,31 +53,31 @@ Thumbs.db
 .htaccess
 
 nbproject
-wp-admin
-wp-includes
-wp-content/plugins
-wp-content/mu-plugins
-wp-content/themes/twentytwenty
-wp-content/themes/twentytwentyone
-wp-content/themes/twentytwentytwo
-wp-content/themes/twentytwentythree
-wp-content/themes/twentytwentyfour
-wp-content/uploads
+# wp-admin
+# wp-includes
+# wp-content/plugins
+# wp-content/mu-plugins
+# wp-content/themes/twentytwenty
+# wp-content/themes/twentytwentyone
+# wp-content/themes/twentytwentytwo
+# wp-content/themes/twentytwentythree
+# wp-content/themes/twentytwentyfour
+# wp-content/uploads
 
 
-wp-config.php
-wp-cron.php
-wp-links-opml.php
-wp-load.php
-wp-login.php
-wp-mail.php
-wp-settings.php
-wp-signup.php
-wp-trackback.php
-xmlrpc.php
-wp-activate.php
-wp-blog-header.php
-wp-comments-post.php
-wp-config-sample.php
+# wp-config.php
+# wp-cron.php
+# wp-links-opml.php
+# wp-load.php
+# wp-login.php
+# wp-mail.php
+# wp-settings.php
+# wp-signup.php
+# wp-trackback.php
+# xmlrpc.php
+# wp-activate.php
+# wp-blog-header.php
+# wp-comments-post.php
+# wp-config-sample.php
 
 

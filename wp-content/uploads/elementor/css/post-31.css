@@ -1,0 +1,25 @@
+.elementor-kit-31{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"optima_ltd";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"optima_ltd";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"optima_ltd";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"optima_ltd";--e-global-typography-accent-font-weight:500;--e-global-typography-8cd5511-font-family:"optima_ltd";--e-global-typography-8cd5511-font-size:24px;--e-global-typography-8cd5511-font-weight:600;--e-global-typography-8cd5511-line-height:28px;font-family:"optima_ltd", Sans-serif;font-size:16px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1660px;}.e-con{--container-max-width:1660px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-31 e-page-transition{background-color:#FFBC7D;}@media(max-width:1440px){.elementor-kit-31{font-size:16px;}}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}@media(min-width:2000px){.elementor-kit-31{--e-global-typography-8cd5511-font-size:24px;--e-global-typography-8cd5511-line-height:34px;--e-global-typography-8cd5511-letter-spacing:0px;font-size:18px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'optima_ltd';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('https://d5.beetech.one/wilkbulk/wp-content/uploads/2024/03/OptimaLTStd.woff2') format('woff2'),
+		url('https://d5.beetech.one/wilkbulk/wp-content/uploads/2024/03/OptimaLTStd.woff') format('woff');
+}
+@font-face {
+	font-family: 'optima_ltd';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://d5.beetech.one/wilkbulk/wp-content/uploads/2024/03/OptimaLTStd-Medium.woff2') format('woff2'),
+		url('https://d5.beetech.one/wilkbulk/wp-content/uploads/2024/03/OptimaLTStd-Medium.woff') format('woff');
+}
+@font-face {
+	font-family: 'optima_ltd';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('https://d5.beetech.one/wilkbulk/wp-content/uploads/2024/03/OptimaLTStd-Bold.woff2') format('woff2'),
+		url('https://d5.beetech.one/wilkbulk/wp-content/uploads/2024/03/OptimaLTStd-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */
